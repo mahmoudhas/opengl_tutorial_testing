@@ -5,7 +5,7 @@
 
 int main() {
     Display display(800, 600, "hello world");
-    Shader shader("./res/shader.vert", "./res/shader.frag");
+    Shader shader("../res/shader.vert", "../res/shader.frag");
 
 
     Vertex vertices[] = {
